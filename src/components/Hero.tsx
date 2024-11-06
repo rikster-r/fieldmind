@@ -16,7 +16,7 @@ export default function Hero() {
       >
         FIELDMINDE
       </h1>
-      <div className="relative ml-auto mt-10 h-[100px] w-[250px] md:h-[250px] md:w-[650px]">
+      <div className="relative z-0 ml-auto mt-10 h-[100px] w-[250px] md:h-[250px] md:w-[650px]">
         <Image
           src={Drone}
           alt="Drone image"
