@@ -6,7 +6,7 @@ export default function BurgerNav() {
   return (
     <>
       <button
-        className="ml-auto md:hidden"
+        className="ml-auto h-full aspect-square md:hidden flex justify-center items-center"
         onClick={() => setIsOpen((open) => !open)}
       >
         <svg
@@ -29,7 +29,7 @@ export default function BurgerNav() {
           className="fixed inset-0 z-50 bg-black bg-opacity-50"
           onClick={() => setIsOpen((open) => !open)}
         >
-          <nav className="absolute right-0 top-0 flex h-lvh w-max flex-col gap-2 bg-secondary-200 px-6 py-4 font-bold md:hidden">
+          <nav className="absolute right-0 top-0 flex h-lvh w-[180px] min-w-[40%] flex-col gap-2 bg-secondary-200 px-6 py-4 text-lg font-bold md:hidden">
             <a href="#home" className="hover:text-gray-300">
               Home
             </a>
