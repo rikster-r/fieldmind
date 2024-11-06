@@ -12,3 +12,15 @@ body {
   font-family: "Source Sans 3", sans-serif;
   font-optical-sizing: auto;
 }
+
+#hero-title {
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke-color: currentColor;
+}
+
+@media (min-width: 768px) {
+  #hero-title {
+    -webkit-text-stroke-width: 2px;
+  }
+}
