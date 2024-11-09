@@ -4,7 +4,7 @@ import Drone from "../assets/drone.png";
 export default function Hero() {
   return (
     <section
-      className="from-tertiary-100  bg-gradient-to-br to-secondary-200 px-4 py-10 text-primary-100 lg:px-32"
+      className="bg-gradient-to-br from-tertiary-100 to-secondary-200 px-4 py-10 text-primary-100 md:pb-20 lg:px-32"
       id="home"
     >
       <p className="text-[8px] uppercase tracking-wider md:mt-10 md:text-xl md:tracking-widest">
@@ -30,7 +30,7 @@ export default function Hero() {
           applications, allowing the user to adapt the system according to
           specific needs.
         </p>
-        <button className="h-[50px] w-max bg-primary-100 px-8 py-1 text-center text-sm font-bold uppercase tracking-wide text-secondary-200 hover:opacity-80 focus:outline-none focus:ring-4 focus:ring-primary-300 sm:text-lg md:h-[60px] md:w-[210px]">
+        <button className="w-max bg-primary-100 px-7 py-3 text-center text-sm font-bold uppercase tracking-wide text-secondary-200 hover:opacity-80 focus:outline-none focus:ring-4 focus:ring-primary-300 sm:text-lg md:px-9 md:py-4">
           Get in touch
         </button>
       </div>
