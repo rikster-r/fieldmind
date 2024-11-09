@@ -1,5 +1,3 @@
-@import url("https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@0,200..900;1,200..900&display=swap");
-
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -9,18 +7,18 @@ html {
 }
 
 body {
-  font-family: "Source Sans 3", sans-serif;
+  font-family: "Raleway", sans-serif;
   font-optical-sizing: auto;
 }
 
-#hero-title {
+#outline-title {
   -webkit-text-stroke-width: 1px;
   -webkit-text-fill-color: transparent;
   -webkit-text-stroke-color: currentColor;
 }
 
 @media (min-width: 768px) {
-  #hero-title {
+  #outline-title {
     -webkit-text-stroke-width: 2px;
   }
 }
