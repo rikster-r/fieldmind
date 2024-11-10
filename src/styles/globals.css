@@ -11,7 +11,7 @@ body {
   font-optical-sizing: auto;
 }
 
-#outline-title {
+.outline-title {
   -webkit-text-stroke-width: 1px;
   -webkit-text-fill-color: transparent;
   -webkit-text-stroke-color: currentColor;
@@ -24,8 +24,13 @@ body {
   background-size: 25% 25%;
 }
 
+/*equivalent to md in tailwind*/
 @media (min-width: 768px) {
-  #outline-title {
+  .outline-title.outline-rise {
     -webkit-text-stroke-width: 2px;
+  }
+
+  #sparkle-block {
+    grid-template-columns: 5rem minmax(0, 1fr);
   }
 }

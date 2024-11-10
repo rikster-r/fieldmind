@@ -11,8 +11,7 @@ export default function Hero() {
         drons | ground equipment | Ai
       </p>
       <h1
-        className="mt-2 text-3xl font-black uppercase tracking-wide md:text-8xl"
-        id="outline-title"
+        className="outline-title outline-rise mt-2 text-3xl font-black uppercase tracking-wide md:text-8xl"
       >
         FIELDMINDE
       </h1>
@@ -25,7 +24,7 @@ export default function Hero() {
         />
       </div>
       <div className="mt-10 flex flex-col gap-4 md:flex-row md:items-center md:justify-between lg:mt-20">
-        <p className="max-w-[90%] text-2xl md:max-w-[70%] md:text-5xl">
+        <p className="max-w-[90%] text-2xl md:max-w-[70%] md:text-4xl">
           We create a universal project and expand its potential for various
           applications, allowing the user to adapt the system according to
           specific needs.

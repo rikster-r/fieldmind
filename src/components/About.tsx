@@ -5,12 +5,9 @@ export default function About() {
   return (
     <section
       id="about"
-      className="bg-secondary-200 px-4 py-10 md:pb-20 text-primary-100 lg:px-32"
+      className="bg-secondary-200 px-4 py-10 text-primary-100 md:pb-20 lg:px-32"
     >
-      <h2
-        className="text-5xl font-black uppercase tracking-wide md:mt-10 md:text-left md:text-8xl"
-        id="outline-title"
-      >
+      <h2 className="outline-title outline-rise text-5xl font-black uppercase tracking-wide md:mt-10 md:text-left md:text-8xl">
         Our Team
       </h2>
       <div className="flex h-full flex-col md:flex-row md:justify-between">
@@ -34,7 +31,7 @@ export default function About() {
         </div>
 
         <div className="flex flex-col md:w-1/2">
-          <div className="relative z-0 ml-auto aspect-square w-full max-w-[500px]">
+          <div className="relative z-0 ml-auto mt-4 aspect-square w-full max-w-[500px] md:mt-0">
             <div className="absolute left-0 top-0 z-10 aspect-square w-[85%]">
               <Image
                 src={Team}
