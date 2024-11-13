@@ -39,8 +39,8 @@ export default function BurgerNav() {
             <a href="#services" className="hover:text-gray-300">
               Services
             </a>
-            <a href="#testimonials" className="hover:text-gray-300">
-              Testimonials
+            <a href="#solution" className="hover:text-gray-300">
+              Solution
             </a>
             <a href="#projects" className="hover:text-gray-300">
               Projects

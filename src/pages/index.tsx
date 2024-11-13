@@ -3,6 +3,7 @@ import Layout from "~/components/Layout";
 import Hero from "~/components/Hero";
 import About from "~/components/About";
 import Services from "~/components/Services";
+import Solution from "~/components/Solution";
 
 export default function Home() {
   return (
@@ -20,6 +21,7 @@ export default function Home() {
           <Hero />
           <About />
           <Services />
+          <Solution />
         </main>
       </Layout>
     </>
