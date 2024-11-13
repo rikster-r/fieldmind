@@ -5,7 +5,7 @@ type Props = {
 export default function SparkleBlock({ text }: Props) {
   return (
     <div
-      className="mt-4 grid min-h-max gap-2 md:gap-8 md:h-auto md:grid-cols-2 md:items-center"
+      className="mt-4 grid min-h-max gap-2 md:gap-8 md:h-auto md:grid-cols-2 md:items-center font-raleway"
       id="sparkle-block"
     >
       <svg

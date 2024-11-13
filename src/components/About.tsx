@@ -7,12 +7,12 @@ export default function About() {
       id="about"
       className="bg-secondary-200 px-4 py-10 text-primary-100 md:pb-20 lg:px-32"
     >
-      <div className="max-w-[1300px] mx-auto">
-        <h2 className="outline-title outline-rise text-5xl font-black uppercase tracking-wide md:mt-10 md:text-left md:text-8xl">
+      <div className="mx-auto max-w-[1300px]">
+        <h2 className="outline-title outline-rise font-raleway text-5xl font-black uppercase tracking-wide md:mt-10 md:text-left md:text-8xl">
           Our Team
         </h2>
         <div className="flex flex-col md:flex-row md:justify-between">
-          <div className="mx-1 mt-4 flex min-h-full flex-col gap-3 leading-5 md:mt-6 md:gap-8 md:text-3xl">
+          <div className="mx-1 mt-4 flex min-h-full flex-col gap-3 md:leading-8 md:mt-6 md:gap-8 md:text-[19pt]">
             <div>
               <p>Orazbay Nurkhan</p>
               <p>- developer, programmer</p>

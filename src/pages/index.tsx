@@ -17,7 +17,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Layout>
-        <main className="">
+        <main className="font-montserrat">
           <Hero />
           <About />
           <Services />

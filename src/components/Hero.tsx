@@ -7,11 +7,11 @@ export default function Hero() {
       className="bg-gradient-to-br from-tertiary-100 to-secondary-200 px-4 py-10 text-primary-100 md:pb-20 lg:px-32"
       id="home"
     >
-      <div className="max-w-[1300px] mx-auto">
-        <p className="text-[8px] uppercase tracking-wider md:mt-10 md:text-xl md:tracking-widest">
+      <div className="mx-auto max-w-[1300px]">
+        <p className="text-[8px] uppercase tracking-wider md:mt-10 md:text-[15pt] md:tracking-widest">
           drons | ground equipment | Ai
         </p>
-        <h1 className="outline-title outline-rise mt-2 text-3xl font-black uppercase tracking-wide md:text-8xl">
+        <h1 className="outline-title outline-rise font-raleway mt-2 text-3xl font-black uppercase tracking-wide md:text-8xl">
           FIELDMINDE
         </h1>
         <div className="relative z-0 ml-auto mt-10 h-[100px] w-[250px] md:h-[250px] md:w-[650px]">
@@ -23,7 +23,7 @@ export default function Hero() {
           />
         </div>
         <div className="mt-10 flex flex-col gap-4 md:flex-row md:items-center md:justify-between lg:mt-20">
-          <p className="max-w-[90%] text-2xl md:max-w-[70%] md:text-4xl">
+          <p className="max-w-[90%] text-2xl leading-tight md:max-w-[800px] md:text-[28pt]">
             We create a universal project and expand its potential for various
             applications, allowing the user to adapt the system according to
             specific needs.

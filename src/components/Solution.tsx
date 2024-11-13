@@ -7,16 +7,16 @@ export default function Solution() {
       <div className="mx-auto max-w-[1300px]">
         <div className="flex w-full items-center justify-between">
           <div>
-            <h2 className="flex flex-col text-5xl font-black uppercase tracking-widest md:mt-10 md:text-left md:text-7xl">
+            <h2 className="font-raleway flex flex-col text-5xl font-black uppercase tracking-widest md:mt-10 md:text-left md:text-7xl">
               <span>Problems</span>
               <span>Decision</span>
             </h2>
-            <p className="mt-8 max-w-[500px] md:text-2xl xl:ml-48 xl:mt-24">
+            <p className="mt-8 max-w-[500px] md:text-[16pt] xl:ml-48 xl:mt-24">
               Timely detection of problem areas in the field using UAVs and
               ground equipment allows farmers to react quickly and minimize
               losses, increasing overall productivity and reducing labor costs.
             </p>
-            <p className="hidden font-extrabold uppercase leading-5 md:flex md:flex-col md:text-2xl xl:ml-48 xl:mt-8">
+            <p className="font-raleway hidden font-extrabold uppercase leading-5 md:flex md:flex-col md:text-2xl xl:ml-48 xl:mt-8">
               <span>significant crop losses due</span>
               <span>to plant diseases and pests</span>
             </p>
@@ -73,13 +73,13 @@ export default function Solution() {
               ></circle>
             </svg>
           </div>
-          <p className="ml-12 mt-2 flex flex-col font-bold uppercase leading-5 md:mt-16 md:text-4xl">
+          <p className="font-raleway ml-12 mt-2 flex flex-col font-bold uppercase leading-5 md:mt-16 md:text-4xl">
             <span>significant crop losses due</span>
             <span>to plant diseases and pests</span>
           </p>
         </div>
         <div className="mt-8">
-          <p className="ml-auto max-w-[600px] text-right md:text-2xl">
+          <p className="ml-auto max-w-[700px] text-right md:text-[16pt]">
             Additionally, the project makes precision farming technology
             accessible to medium and small farms, which is especially important
             in conditions of insufficient availability of such solutions on the

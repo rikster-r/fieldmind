@@ -9,12 +9,12 @@ export default function Services() {
       className="bg-secondary-200 px-4 py-10 text-primary-100 md:pb-20 lg:px-32"
     >
       <div className="mx-auto max-w-[1300px]">
-        <h2 className="text-5xl font-black uppercase tracking-wide md:mt-10 md:text-left md:text-7xl">
+        <h2 className="font-raleway text-5xl font-black uppercase tracking-wide md:mt-10 md:text-left md:text-7xl">
           What we do
         </h2>
         <div className="flex flex-col md:gap-16 lg:flex-row lg:justify-between">
           <div className="">
-            <p className="mt-4 md:mt-16 md:text-4xl">
+            <p className="mt-4 leading-normal md:mt-16 md:text-[23pt]">
               -creation of a universal platform that can be upgraded and adapted
               to solve various tasks
             </p>

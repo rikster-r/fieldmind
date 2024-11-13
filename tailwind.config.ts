@@ -19,6 +19,10 @@ export default {
           100: "#379094",
         },
       },
+      fontFamily: {
+        montserrat: ["Montserrat", "sans-serif"],
+        raleway: ["Raleway", "sans-serif"],
+      },
     },
   },
   plugins: [],
