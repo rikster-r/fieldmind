@@ -12,7 +12,7 @@ export default function About() {
           Our Team
         </h2>
         <div className="flex flex-col md:flex-row md:justify-between">
-          <div className="mx-1 mt-4 flex min-h-full flex-col gap-3 md:leading-8 md:mt-6 md:gap-8 md:text-[19pt]">
+          <div className="mx-1 mt-4 flex min-h-full flex-col gap-3 md:mt-6 md:gap-8 md:text-[19pt] md:leading-8">
             <div>
               <p>Orazbay Nurkhan</p>
               <p>- developer, programmer</p>
@@ -45,7 +45,7 @@ export default function About() {
                 id="x-fill"
               ></div>
             </div>
-            <button className="ml-auto mt-4 w-max border-[3px] border-primary-100 px-4 py-2 text-center text-sm font-extrabold uppercase tracking-wide text-primary-100 hover:opacity-80 focus:outline-none focus:ring-4 focus:ring-primary-300 sm:text-lg md:mt-12 md:border-4 md:px-5 md:py-3">
+            <button className="ml-auto mt-4 w-max text-nowrap border-[3px] border-primary-100 px-4 py-2 text-center text-sm font-extrabold uppercase tracking-wide text-primary-100 hover:opacity-80 focus:outline-none focus:ring-4 focus:ring-primary-300 sm:text-lg md:mt-12 md:border-4 md:px-5 md:py-3">
               View portfolio
             </button>
           </div>

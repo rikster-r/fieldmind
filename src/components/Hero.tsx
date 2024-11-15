@@ -11,7 +11,7 @@ export default function Hero() {
         <p className="text-[8px] uppercase tracking-wider md:mt-10 md:text-[15pt] md:tracking-widest">
           drons | ground equipment | Ai
         </p>
-        <h1 className="outline-title outline-rise font-raleway mt-2 text-3xl font-black uppercase tracking-wide md:text-8xl">
+        <h1 className="outline-title outline-rise mt-2 font-raleway text-3xl font-black uppercase tracking-wide md:text-8xl">
           FIELDMINDE
         </h1>
         <div className="relative z-0 ml-auto mt-10 h-[100px] w-[250px] md:h-[250px] md:w-[650px]">
@@ -28,7 +28,7 @@ export default function Hero() {
             applications, allowing the user to adapt the system according to
             specific needs.
           </p>
-          <button className="w-max bg-primary-100 px-7 py-3 text-center text-sm font-bold uppercase tracking-wide text-secondary-200 hover:opacity-80 focus:outline-none focus:ring-4 focus:ring-primary-300 sm:text-lg md:px-9 md:py-4">
+          <button className="w-max text-nowrap bg-primary-100 px-7 py-3 text-center text-sm font-bold uppercase tracking-wide text-secondary-200 hover:opacity-80 focus:outline-none focus:ring-4 focus:ring-primary-300 sm:text-lg md:px-9 md:py-4">
             Get in touch
           </button>
         </div>
