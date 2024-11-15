@@ -7,7 +7,7 @@ export default function Solution() {
       <div className="mx-auto max-w-[1300px]">
         <div className="flex w-full items-center justify-between">
           <div>
-            <h2 className="font-raleway flex flex-col text-5xl font-black uppercase tracking-widest md:mt-10 md:text-left md:text-7xl">
+            <h2 className="flex flex-col font-raleway text-5xl font-black uppercase tracking-widest md:mt-10 md:text-left md:text-7xl">
               <span>Problems</span>
               <span>Decision</span>
             </h2>
@@ -16,7 +16,7 @@ export default function Solution() {
               ground equipment allows farmers to react quickly and minimize
               losses, increasing overall productivity and reducing labor costs.
             </p>
-            <p className="font-raleway hidden font-extrabold uppercase leading-5 md:flex md:flex-col md:text-2xl xl:ml-48 xl:mt-8">
+            <p className="hidden font-raleway font-extrabold uppercase leading-5 md:flex md:flex-col md:text-2xl xl:ml-48 xl:mt-8">
               <span>significant crop losses due</span>
               <span>to plant diseases and pests</span>
             </p>
@@ -28,18 +28,19 @@ export default function Solution() {
               xmlns="http://www.w3.org/2000/svg"
               stroke-width="7"
               fill="none"
+              stroke="currentColor"
             >
               <circle
                 cx="18"
                 cy="18"
                 r="14"
-                className="stroke-current text-gray-200 dark:text-primary-200"
+                className="text-primary-200"
               ></circle>
               <circle
                 cx="18"
                 cy="18"
                 r="14"
-                className="stroke-current text-blue-600 dark:text-primary-300"
+                className="text-primary-300"
                 stroke-dasharray="100"
                 stroke-dashoffset="45"
                 stroke-linecap="round"
@@ -55,25 +56,26 @@ export default function Solution() {
               xmlns="http://www.w3.org/2000/svg"
               stroke-width="7"
               fill="none"
+              stroke="currentColor"
             >
               <circle
                 cx="18"
                 cy="18"
                 r="14"
-                className="stroke-current text-gray-200 dark:text-primary-200"
+                className="text-primary-200"
               ></circle>
               <circle
                 cx="18"
                 cy="18"
                 r="14"
-                className="stroke-current text-blue-600 dark:text-primary-300"
+                className="text-primary-300"
                 stroke-dasharray="100"
                 stroke-dashoffset="45"
                 stroke-linecap="round"
               ></circle>
             </svg>
           </div>
-          <p className="font-raleway ml-12 mt-2 flex flex-col font-bold uppercase leading-5 md:mt-16 md:text-4xl">
+          <p className="ml-12 mt-2 flex flex-col font-raleway font-bold uppercase leading-5 md:mt-16 md:text-4xl">
             <span>significant crop losses due</span>
             <span>to plant diseases and pests</span>
           </p>
