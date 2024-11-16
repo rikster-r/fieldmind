@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { motion, AnimatePresence } from "motion/react";
 
 export default function BurgerNav() {
   const [isOpen, setIsOpen] = useState(false);
@@ -6,7 +7,7 @@ export default function BurgerNav() {
   return (
     <>
       <button
-        className="ml-auto h-full aspect-square md:hidden flex justify-center items-center"
+        className="ml-auto flex aspect-square h-full items-center justify-center md:hidden"
         onClick={() => setIsOpen((open) => !open)}
         aria-label="Open navigation bar"
       >
@@ -25,35 +26,41 @@ export default function BurgerNav() {
           />
         </svg>
       </button>
-      {isOpen ? (
-        <div
-          className="fixed inset-0 z-50 bg-black bg-opacity-50"
-          onClick={() => setIsOpen((open) => !open)}
-        >
-          <nav className="absolute right-0 top-0 flex h-lvh w-[180px] min-w-[40%] flex-col gap-2 bg-secondary-200 px-6 py-4 text-lg font-bold md:hidden">
-            <a href="#home" className="hover:text-gray-300">
-              Home
-            </a>
-            <a href="#about" className="hover:text-gray-300">
-              About
-            </a>
-            <a href="#services" className="hover:text-gray-300">
-              Services
-            </a>
-            <a href="#solution" className="hover:text-gray-300">
-              Solution
-            </a>
-            <a href="#costs" className="hover:text-gray-300">
-              Costs
-            </a>
-            <a href="#contact" className="hover:text-gray-300">
-              Contact
-            </a>
-          </nav>
-        </div>
-      ) : (
-        <></>
-      )}
+      <AnimatePresence>
+        {isOpen && (
+          <div
+            className="fixed inset-0 z-50 bg-black bg-opacity-50"
+            onClick={() => setIsOpen((open) => !open)}
+          >
+            <motion.nav
+              className="absolute right-0 top-0 flex h-lvh w-[180px] min-w-[40%] flex-col gap-2 bg-secondary-200 px-6 py-4 text-lg font-bold md:hidden"
+              initial={{ opacity: 0, x: 50 }}
+              animate={{ opacity: 1, x: 0 }}
+              exit={{ opacity: 0, x: 50 }}
+              transition={{ duration: 0.3, ease: "easeInOut" }}
+            >
+              <a href="#home" className="hover:text-gray-300">
+                Home
+              </a>
+              <a href="#about" className="hover:text-gray-300">
+                About
+              </a>
+              <a href="#services" className="hover:text-gray-300">
+                Services
+              </a>
+              <a href="#solution" className="hover:text-gray-300">
+                Solution
+              </a>
+              <a href="#costs" className="hover:text-gray-300">
+                Costs
+              </a>
+              <a href="#contact" className="hover:text-gray-300">
+                Contact
+              </a>
+            </motion.nav>
+          </div>
+        )}
+      </AnimatePresence>
     </>
   );
 }

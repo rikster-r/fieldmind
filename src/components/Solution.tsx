@@ -1,3 +1,5 @@
+import { motion } from "motion/react";
+
 export default function Solution() {
   return (
     <section
@@ -7,10 +9,16 @@ export default function Solution() {
       <div className="mx-auto max-w-[1300px]">
         <div className="flex w-full items-center justify-between">
           <div>
-            <h2 className="flex flex-col font-raleway text-5xl font-black uppercase tracking-widest md:mt-10 md:text-left md:text-7xl">
+            <motion.h2
+              className="flex flex-col font-raleway text-5xl font-black uppercase tracking-widest md:mt-10 md:text-left md:text-7xl"
+              initial={{ opacity: 0 }}
+              whileInView={{ opacity: 1 }}
+              viewport={{ once: true }}
+              transition={{ duration: 1, ease: "easeOut" }}
+            >
               <span>Problems</span>
               <span>Decision</span>
-            </h2>
+            </motion.h2>
             <p className="mt-8 max-w-[500px] md:text-[16pt] xl:ml-48 xl:mt-24">
               Timely detection of problem areas in the field using UAVs and
               ground equipment allows farmers to react quickly and minimize
