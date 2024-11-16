@@ -8,6 +8,7 @@ export default function BurgerNav() {
       <button
         className="ml-auto h-full aspect-square md:hidden flex justify-center items-center"
         onClick={() => setIsOpen((open) => !open)}
+        aria-label="Open navigation bar"
       >
         <svg
           xmlns="http://www.w3.org/2000/svg"
